@@ -1,0 +1,200 @@
+:root{
+    --bg--body: #131416;
+    --color--font:#fff;
+    --botton--color: #0772EB;
+    --card--color: #1E212C;
+
+}
+
+.container{
+    max-width: 48rem;
+    margin:auto;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg--body);
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.logo h2{
+    color: var(--color--font);
+}
+
+.logo img{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.section-1{
+    display: flex;
+
+}
+.action-title h2{
+    font-size: 3rem;
+    color: var(--color--font);
+}
+
+.button {
+    background-color: var(--botton--color);
+    display: inline-block;
+    padding: 1rem 4rem;
+    border-radius: 4rem;
+    color:var(--color--font);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ebook img{
+    width: 320px;
+    height:auto;
+    margin-right: 6rem;
+}
+
+.section-2{
+    margin-top: 11rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-2 h2{
+    color: var(--color--font);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    align-items: center;
+    background-color: var(--card--color);
+    margin-left: 2rem;
+    width:12rem;
+    height: 12rem;
+    
+    color: var(--color--font);
+}
+
+.card img{   
+     width: 5rem;
+     height: 5rem;
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+    margin-bottom: 3rem;
+}
+
+.button-2{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: var(--card--color);
+    color: var(--color--font);
+    padding: 0.6rem 1.25rem 0.6rem 1.25rem;
+    border-radius: 1rem;
+}
+
+.section-3 h2{
+    font-size: 3rem;
+    color: var(--botton--color);
+}
+
+.section-3 p{
+    color:var(--color--font);
+    margin-top: -1.5rem;
+    margin-bottom: 2rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--card--color);
+    height: 6rem;
+    padding-bottom: 3rem;
+}
+
+.button-3{
+    background-color: var(--botton--color);
+    display: inline-block;
+    padding: 1rem 4rem;
+    border-radius: 4rem;
+    color:var(--color--font);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -2rem;
+}
+
+footer p{
+    color: var(--color--font);
+    margin-top: 2rem;
+}
+
+@media (max-width : 420px){
+    .section-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ebook img{
+        margin-right: auto;
+    }
+
+    .action-title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action-title h2{
+        font-size: 3rem;
+        text-align:center;
+        font-size: 2rem;
+        color: var(--color--font);
+    }
+
+    .cards{
+        display: flex;
+        flex-direction:column ;
+    }
+    .card{
+        margin-bottom: 2rem;
+    }
+    .section-3 h2{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
