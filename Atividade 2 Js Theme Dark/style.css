@@ -1,0 +1,337 @@
+html{
+    --branquinho: #f3f3f3;
+    --cinzinha: #606060;
+    --pretinho:#181717;
+    --azulzinho:#2429AF;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;   
+}
+
+body{
+    background-color: var(--branquinho);
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+NavBar{
+    display: flex;
+    width:900px;
+    height: 120px;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+NavBar .logo{
+    margin-left: 0;
+    margin-top: 0.5rem;
+    max-height: 80px;
+}
+
+NavBar .botoes{
+    min-width: 800px;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.btn{
+    width: 50px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn.active{
+    width: 50px;
+    height: 20px;
+    border: 3px solid #fff;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn:before{
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    transition: left .5s;
+    transition: background .8s;
+}
+
+.btn.active:before{
+    background: #fff;
+    left: 30px;
+}
+
+body.active{
+    background-color: var(--pretinho);
+}
+
+
+NavBar .botao{
+    margin-left: 1rem;
+}
+
+body.active NavBar .botao{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: var(--pretinho);
+}
+
+body.active a{
+    color: #fff;
+}
+.section-1{
+    justify-content: center;
+    margin-top: 8rem;
+    display: flex;
+}
+
+body.active .section-1{
+    color: #fff;
+}
+
+.texto-apresentacao{
+    font-size: 40px;
+    width: 400px;
+    margin-left: 0px;
+}
+
+.descricao-texto-apresentacao{
+    width:500px;
+    color: var(--cinzinha);
+    align-self: flex-end;
+}
+
+.material-symbols-outlined {
+  
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.seta-baixo{
+    margin-top: 4rem;
+  font-size: 40px;
+}
+
+body.active .material-symbols-outlined {
+    color: #fff;
+}
+
+.projeto{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+body.active .projeto{
+    color: #fff;
+}
+
+.projetos-textos{
+    max-width:300px;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.descricao-projeto{
+margin-top: 1rem;
+}
+
+.descricao-foto{
+    margin-top: 2rem;
+    color: var(--cinzinha);
+}
+
+.botao-foto{
+    margin-top: 6rem;
+    text-decoration:underline;
+    align-items: center;
+}
+
+
+.foto-projeto img{
+    width: 500px;
+    height: 300px;
+}
+
+.botao-foto-projeto2{
+    margin-top:8rem;
+    text-decoration: underline;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.seta-lado{
+    font-size: 12px;
+}
+
+.botao-foto-projeto3{
+    margin-top:13rem;
+    text-decoration: underline;
+    color:var(--cinzinha);
+}
+
+footer{
+    height: 25vh;
+    font-family: 'DM Sans', sans-serif;
+    padding: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: var(--branquinho);
+    display: flex;
+    align-self: flex-end;
+    color: var(--azulzinho);
+    border: none;
+    font-family: 'DM Sans', sans-serif; 
+}
+
+body.active button{
+    background-color: var(--pretinho);
+}
+
+.botoes-footer{
+    display: flex;
+}
+
+.botao-footer{
+    display:inline;
+    align-self: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+body.active .botao-footer{
+    color: #fff;
+}
+
+.section-4{
+    margin-top: 8rem;
+    height: 420px;
+    display: flex;
+}
+
+body.active .section-4{
+    color: #fff;
+}
+
+.descricao-pessoal{
+    font-size: 45px;
+}
+
+
+.texto-sobre-mim{
+    display: flex;
+    margin-right:7rem;  
+    flex-direction: column;
+}
+
+.biografia{
+    margin-top: 21px;
+    font-size: 18px;
+    color: var(--cinzinha);
+}
+.biografia-2{
+    margin-top: 21px;
+    font-size: 18px;
+    color: var(--cinzinha);
+}
+
+.section-4 img{
+    max-width:421px;
+    height: 420px;
+}
+
+.informacoes{
+    margin-top: 6rem;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+body.active .informacoes{
+    color: #fff;
+}
+
+.informacoes-software{
+    display: flex;
+}
+
+.informacao-principal{
+ font-size: 14px;
+ width:100px;
+ text-decoration: underline;
+}
+ 
+.descricao-softwares p{
+    margin-block-start: 0em;
+    margin-left: 2rem;
+    width: 420px;
+    font-size: 12px;
+}
+
+.informacoes-software{
+    display: flex;
+}
+
+.contatos{
+    margin-top: 3rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+body.active .contatos{
+    color: #fff;
+}
+
+.frase-contato{
+    font-size: 24px;
+    width: 320px;
+}
+
+.seta-lado-maior{
+    font-size: 20px;
+}
+
+.texto-contato{
+    margin-right: 2rem;
+}
+
+.email{
+    font-size: 20px;
+}
+
+.view-resume{
+    color: var(--cinzinha);
+    margin-top: 12px;
+    font-size: 12px;
+}

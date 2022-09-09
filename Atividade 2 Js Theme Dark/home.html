@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade Tema Dark</title>
+</head>
+<body class="container">
+    <NavBar class="container">
+        <img src="/Atividade 2 Js Theme Dark/Images/download.png" class = "logo">
+        <div class="botoes">
+            <div class="botao">
+                Work
+            </div>
+            <div class="botao">
+                <a href="/Atividade 2 Js Theme Dark/about.html">About</a>
+            </div>
+            <div class="botao">
+                    <div class="btn"></div>
+                </div>
+            </div>
+        </div>
+    </NavBar>
+    <section class="container">
+        <div class="section-1">
+            <div class="texto-apresentacao">
+                Hello I'm Galinha d'Angola eletríca.
+            </div>
+            
+            <div class="descricao-texto-apresentacao">
+                A senior-year design student who trying to specialiein 3D modeling & texturing.
+            </div>  
+        </div> 
+        <span class="material-symbols-outlined seta-baixo">
+            arrow_downward
+            </span>
+    </section>
+    <section class="container">
+            <div class="projeto container">
+                <div class="projetos-textos">
+                    <div class="nome-projeto">01/PROJECT NAME</div>
+                    <div class="descricao-projeto">
+                        Goblin concept digital sculpture with human-like skin. 
+                        Learned a lot of quick tips and look development.
+                    </div>
+                    <div class="descricao-foto">
+                        Sculpted in ZBrush, Retopologized and UVs done in Maya, 
+                        Textured in Mari, Rendered using Arnold.
+                    </div>
+                    <div class="botao-foto">
+                        More Details from this project
+                        <span class="material-symbols-outlined seta-lado">
+                            arrow_forward
+                            </span>
+                    </div>
+                </div>
+                <div class="foto-projeto">
+                    <img src="/Atividade 2 Js Theme Dark/Images/download.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <HR>
+        <section class="container">
+            <div class="projeto container">
+                <div class="projetos-textos">
+                    <div class="nome-projeto">02/PROJECT NAME</div>
+                    <div class="descricao-projeto">
+                        Subsurface weight, specular roughness, diffuse maps generated with the 
+                        procedure and manual techniques.
+                    </div>
+                    <div class="botao-foto-projeto2">
+                        See case study
+                        <span class="material-symbols-outlined seta-lado">
+                            arrow_forward
+                            </span>
+                    </div>
+                </div>
+                <div class="foto-projeto">
+                    <img src="/Atividade 2 Js Theme Dark/Images/download.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <HR>
+        <section class="container">
+            <div class="projeto container">
+                <div class="projetos-textos">
+                    <div class="nome-projeto">03/PROJECT NAME</div>
+                    <div class="descricao-projeto">
+                        Experimental Criature modeling for school projectd 
+                    </div>
+                    <div class="botao-foto-projeto3">
+                        Project-Wip
+                    </div>
+                </div>
+                <div class="foto-projeto">
+                    <img src="/Atividade 2 Js Theme Dark/Images/download.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <HR>
+</body>
+<footer class="container">
+    <button>
+        Mehmet Akif Karasu ⏤ 2020
+    </button>
+    <div class="botoes-footer">
+        <div class="botao-footer">
+            Artstation
+        </div>
+        <div class="botao-footer">
+            Linkedin
+        </div>
+        <div class="botao-footer">
+            Twitter
+        </div>
+    </div>
+</footer>
+<script>
+    const btn = document.querySelector('.btn');
+    const body = document.querySelector('body');
+
+    btn.onclick = function(){
+        this.classList.toggle('active');
+        body.classList.toggle('active');
+    }
+</script>    
+</html>
