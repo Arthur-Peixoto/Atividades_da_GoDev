@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    color: white;
+}
+
+.container{
+    width: 800px;
+    text-align: center;
+}
+
+HR{ 
+    border: 1px dashed rgb(255, 255, 255); 
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
