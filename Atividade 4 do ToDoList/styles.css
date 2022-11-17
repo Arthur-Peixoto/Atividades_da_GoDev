@@ -1,17 +1,52 @@
 body{
-    background-color: aqua;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4F56FF), color-stop(50%,#4F56FF), color-stop(51%,#4F56FF), color-stop(100%,#00F0FF));
     color: white;
+    height: 832px;
 }
 
-.container{
-    width: 800px;
+#container{
+    margin-top: 20px;
+    max-width: 722px;
+    margin: auto;
     text-align: center;
+}
+
+#adicionarTarefa{
+    width: 100%;
+    height: 52px;
+    border-radius: 5px;
 }
 
 HR{ 
     border: 1px dashed rgb(255, 255, 255); 
-    width: 50%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
+}
+
+#todolist{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#todolist button{
+    height: 52px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.todoitem{
+    display: flex;
+    width: 100%;
+    height: 52px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: #595959;
+    box-shadow: 1px 1px 5px var(#0F0F0B);
 }
