@@ -14,18 +14,17 @@ const criarItem = (tarefa) =>{
 const inserirItem = (evento) =>{
     const tecla = evento.key;
     const texto = evento.target.value;
-    if (tecla === "Enter"){
+        if(texto.length > 0 && tecla === "Enter"){
         criarItem(texto);
         evento.target.value = '';
-    }
+        }
 }
 
 const clickItem = (evento) => {
     const elemento = evento.target;
     const id = elemento.id;
-    console.log(id);
     if (elemento.type === "button") {
-        document.getElementById(id).remove('todoitem');    
+        document.getElementById('id').remove('todoitem');    
     }
 }
 
