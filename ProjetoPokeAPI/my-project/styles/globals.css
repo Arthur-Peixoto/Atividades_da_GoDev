@@ -1,0 +1,91 @@
+.dark{
+    --color-bg-primary: #1e1e1e;
+    --color-bg-card: #1F1E21;   
+    --color-bg-btn: #9c9c9c;
+    --text-color-primary:#fff;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{ 
+    background-image: url("../public/Pokebola-Icon.svg");
+    background-repeat: no-repeat;
+    background-size: 50vw 50vh;
+    background-color: #F6F8FC;
+    background-position:top left;
+    font-weight: 700;
+}
+
+.bg-type-grass{
+    background-color: #5FBA57;
+}
+
+.bg-type-fighting{
+    background-color: #CF4068;
+}
+
+.bg-type-bug{
+    background-color: #90C12D;
+}
+
+.bg-type-ground{
+    background-color: #D87B4A;
+}
+
+.bg-type-steel{
+    background-color:#538B9D ;
+}
+
+.bg-type-fire{
+    background-color: #FF9D53;
+}
+
+.bg-type-water{
+    background-color: #559CD9;
+}
+
+.bg-type-dark{
+    background-color: #5A5366;
+}
+
+.bg-type-dragon{
+    background-color: #0969C1;
+}
+
+.bg-type-electric{
+    background-color: #F5D64B;
+}
+
+.bg-type-fairy{
+    background-color: #EC92E3;
+}
+
+.bg-type-flying{
+    background-color: #90A8DE;
+}
+
+.bg-type-ghost{
+    background-color: #5369AC;
+}
+
+.bg-type-ice{
+    background-color: #74CEC1;
+}
+
+.bg-type-normal{
+    background-color: #9099A1;
+}
+
+.bg-type-poison{
+    background-color: #A866C8;
+}
+
+.bg-type-psychic{
+    background-color: #F86E74;
+}
+
+.bg-type-rock{
+    background-color: #C8B98C;
+}
